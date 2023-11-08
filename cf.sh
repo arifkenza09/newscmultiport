@@ -15,10 +15,10 @@ off='\x1b[m'
 
 clear
 apt install jq curl -y
-DOMAIN=friendvps.my.id
+DOMAIN=fathurrohman.my.id
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c6)
-SUB_DOMAIN=${sub}.friendvps.my.id
-CF_ID=ralzikri21@gmail.com
+SUB_DOMAIN=${sub}. fathurrohman.my.id
+CF_ID=afibadritamam@gmail.com
 CF_KEY=0eabc317e2996181080c32cd628ae9341c3b6
 set -euo pipefail
 IP=$(wget -qO- ipinfo.io/ip);
